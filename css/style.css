@@ -1,0 +1,19 @@
+#initial-display {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#slideshow-container {
+  text-align: center;
+}
+
+#slideshow {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  border: 2px solid black;
+  background-size: cover;
+}

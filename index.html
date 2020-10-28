@@ -3,9 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Reddit Slideshow</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div id="initial-display">
+    <h1>Reddit Slideshow</h1>
+    <p>Search for images!</p>
+    <input type="text" id="search-images">
+    <button id="submit">Go!</button>
+  </div>
+
+  <div id="slideshow-container" class="hidden">
+    <div id="slideshow"></div>
+    <button id="stop-button">Stop!</button>
+  </div>
+  <script src="js/app.js"></script>
 </body>
 </html>
